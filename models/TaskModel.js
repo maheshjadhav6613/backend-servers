@@ -51,8 +51,8 @@ const taskSchema = new mongoose.Schema(
     statusId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Status",
-      default: "675963ec7a3855d625c88a51",
-      // default: "6764fa4067d8cd7def023e13",
+      // default: "675963ec7a3855d625c88a51",
+      default: "6764fa4067d8cd7def023e13",
 
     },
     statusChangeTimestamps: {
